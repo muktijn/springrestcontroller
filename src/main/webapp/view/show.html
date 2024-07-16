@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Person Details</title>
+</head>
+<body>
+<h1>Person Details</h1>
+<div>
+    <label>Name:</label> <span th:text="${person.name}"></span>
+</div>
+<!-- Add more fields as necessary -->
+<a th:href="@{/persons}">Back to List</a>
+</body>
+</html>

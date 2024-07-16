@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 import java.util.Optional;
 
-@Controller
+//@Controller
 public class BookController {
 
     private final BookRepository bookRepository;
