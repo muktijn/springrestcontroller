@@ -27,5 +27,3 @@
     <!-- Inline Text Example -->
     <p th:inline="text">Hello, [[${person.firstName}]] [[${person.lastName}]]!</p>
     
-    <!-- Concatenation Example -->
-    <p>Full Name: <span th:text="'
